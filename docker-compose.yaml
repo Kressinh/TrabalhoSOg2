@@ -1,0 +1,10 @@
+998version: "3"
+
+services:
+    client:
+        image: nginx
+        ports:
+        - 8000:80
+        volumes:
+        - ./src:/urs/share/nginx/html
+        
